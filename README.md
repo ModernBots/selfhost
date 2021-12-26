@@ -1,5 +1,10 @@
 # How to self-host any of the ModernBots
 
+# Don't want to deal with all the stuff here?
+We offer self-hosting as a paid service for just **$5/month!** This is far cheaper and easier than most VPS and homelab solutions. [Check it out here!](about:blank) 
+
+---
+
 ### Prerequisites
 - You have to have a VPS/Homelab/Raspberry Pi.
     - It is ***highly reccomended*** to run a GNU/Linux distrobution. I will not provide any support for non-Linux solutions.

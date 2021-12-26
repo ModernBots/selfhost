@@ -50,4 +50,4 @@
 # **Congrats!** The bot is now in your server!
 
 ### Step 4: Combining functionality of other bots in
-<kbd>TODO</kbd>
+> TODO

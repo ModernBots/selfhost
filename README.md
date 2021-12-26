@@ -44,7 +44,7 @@
 - Under "SCOPES", check the "bot" **AND** the "applications.commands" boxes
 - Under "GENERAL PERMISSIONS", check the "Administrator" box
 - Copy the URL at the bottom and open it in a new tab
-- Select your server, click Authorize a couple times, and fill out the hCaptcha
+- Select your server from the dropdown, click the "Continue" button, click the "Authorize" button, and fill out the hCaptcha if needed.
 
 # **Congrats!** The bot is now in your server!
 

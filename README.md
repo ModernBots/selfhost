@@ -1,7 +1,9 @@
 ## How to self-host any of the ModernBots
 
 # Don't want to deal with all the stuff here?
-We offer self-hosting as a paid service for just **$5/month!** This is far cheaper and easier than most VPS and homelab solutions. [Check it out here!](about:blank) 
+### We offer self-hosting as a paid service for just **$5/month!** This is far cheaper and easier than most VPS and homelab solutions.
+
+### [Check it out here!](https://about:blank)
 
 ---
 
@@ -17,7 +19,7 @@ We offer self-hosting as a paid service for just **$5/month!** This is far cheap
 - Download and install [MongoDB](https://mondodb.com)
 - Download and install [Python 3](https://python.org)
      - If you are running GNU/Linux, there's a very good chance Python is pre-installed, so don't worry about this
-> At this point in time, it's a good idea to open up the terminal (and ssh into your VPS if needed)!
+> At this point in time, it's a good idea to open up the terminal (and `ssh` into your VPS if needed)!
 - Clone/download the repo of the bot you want to self host (either [DropBot](https://github.com/modernbots/dropbot), [ModernBot](https://github.com/modernbots/modbot), or [ContentBot](https://github.com/modernbots/contentbot))
      - Many people think this is forking the repo, which isn't. DO NOT fork any of the repositories unless you plan on contributing code!
      - To clone the repository with the CLI, type in `git clone https://github.com/modernbots/BOTNAMEHERE` and hit <kbd>Enter</kbd>, replacing `BOTNAMEHERE` with the name of the bot you want to self-host

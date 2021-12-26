@@ -15,8 +15,10 @@
 > At this point in time, it's a good idea to open up the terminal!
 - Clone/download the repo of the bot you want to self host (either [DropBot](https://github.com/modernbots/dropbot), [ModernBot](https://github.com/modernbots/modbot), or [ContentBot](https://github.com/modernbots/contentbot))
      - Many people think this is forking the repo, which isn't. DO NOT fork any of the repositories unless you plan on contributing code!
-     - To clone the repository with the CLI, run `git clone https://github.com/modernbots/BOTNAMEHERE`, replacing `BOTNAMEHERE` with the name of the bot you want to self-host
-- `cd` into directory of the repo you cloned/downloaded, run `python3 -m pip install -r requirements.txt`
+     - To clone the repository with the CLI, type in `git clone https://github.com/modernbots/BOTNAMEHERE` and hit <kbd>Enter</kbd>, replacing `BOTNAMEHERE` with the name of the bot you want to self-host
+- `cd` into directory of the repo you cloned/downloaded
+    - I.e. type `cd dropbot` and hit <kbd>Enter</kbd> 
+-  Type `python3 -m pip install -r requirements.txt` and hit <kbd>Enter</kbd>
 
 ### Step 2: Making the bot with Discord
 - Go to the [Discord Developer Portal](https://discord.com/developers)
@@ -35,15 +37,14 @@
 ### Step 3: Setting the bot up
 - Back in the terminal, type `echo "DISCORD=`, paste the token you copied, `" > .env` and hit <kbd>Enter</kbd>
     - It should look like `echo "DISCORD=abcdefg" > .env`
-- Run `sed -i 's/"info", "tasks"]/]/g`
-- Run `python3 src/bot.py`
+- Type `sed -i 's/"info", "tasks"]/]/g` and hit <kbd>Enter</kbd>
+- Type `python3 src/bot.py` and hit <kbd>Enter</kbd>
 - Go back to the [Discord Developer Portal](https://discord.com/developers) and open the app you created
 - Open the sidebar and click on "Oauth2", then click on "URL Generator"
 - Under "SCOPES", check the "bot" **AND** the "applications.commands" boxes
 - Under "GENERAL PERMISSIONS", check the "Administrator" box
 - Copy the URL at the bottom and open it in a new tab
 - Select your server, click Authorize a couple times, and fill out the hCaptcha
-
 
 # **Congrats!** The bot is now in your server!
 

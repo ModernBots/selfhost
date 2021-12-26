@@ -47,6 +47,8 @@
 - Type `sed -i 's/"info", "tasks"]/]/ ./src/bot.py` and hit <kbd>Enter</kbd>
 - Type `python3 src/bot.py` and hit <kbd>Enter</kbd>
 > To have the bot still running when you close the session, install **and** run `tmux` before running this command!
+
+### Step 4: Inviting the bot
 - Go back to the [Discord Developer Portal](https://discord.com/developers) and open the app you created
 - Open the sidebar and click on "Oauth2", then click on "URL Generator"
 - Under "SCOPES", check the "bot" **AND** the "applications.commands" boxes
@@ -56,5 +58,5 @@
 
 # **Congrats!** The bot is now in your server!
 
-### Step 4: Combining functionality of other bots in
+### Step 5: Combining functionality of other bots in
 > TODO

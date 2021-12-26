@@ -45,7 +45,7 @@
 - Select your server, click Authorize a couple times, and fill out the hCaptcha
 
 
-**Congrats!** The bot is now in your server!
+# **Congrats!** The bot is now in your server!
 
 ### Step 4: Combining functionality of other bots in
 <kbd>TODO</kbd>

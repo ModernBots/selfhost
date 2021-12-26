@@ -44,7 +44,7 @@
 ### Step 3: Setting the bot up
 - Back in the terminal, type `echo "DISCORD=`, paste the token you copied, `" > .env` and hit <kbd>Enter</kbd>
     - It should look like `echo "DISCORD=abcdefg" > .env`
-- Type `sed -i 's/"info", "tasks"]/]/g` and hit <kbd>Enter</kbd>
+- Type `sed -i 's/"info", "tasks"]/]/ ./src/bot.py` and hit <kbd>Enter</kbd>
 - Type `python3 src/bot.py` and hit <kbd>Enter</kbd>
 > To have the bot still running when you close the session, install **and** run `tmux` before running this command!
 - Go back to the [Discord Developer Portal](https://discord.com/developers) and open the app you created

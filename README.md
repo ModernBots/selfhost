@@ -35,3 +35,12 @@
 ### Step 3: Setting the bot up
 - Back in the terminal, type `echo "DISCORD=`, paste the token you copied, `" > .env` and hit <kbd>Enter</kbd>
     - It should look like `echo "DISCORD=abcdefg" > .env`
+- Run `sed -i 's/"info", "tasks"]/]/g`
+- Run `python3 src/bot.py`
+- Go back to the [Discord Developer Portal](https://discord.com/developers) and open the app you created
+- Open the sidebar and click on "Oauth2", then click on "URL Generator"
+- Under "SCOPES", check the "bot" **AND** the "applications.commands" boxes
+- Under "GENERAL PERMISSIONS", check the "Administrator" box
+- Copy the URL at the bottom and open it in a new tab
+- Select your server, click Authorize a couple times, and fill out the hCaptcha
+**Congrats!** The bot is now in your server!

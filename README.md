@@ -6,13 +6,13 @@
     - If you do not have a VPS, [Stuxhost](https://stuxhost.com/), [Vultr](https://www.vultr.com/), and [Linode](https://linode.com) are good options.
     - I do not reccomend Raspberry Pis, but if you have one lying around, it's better than nothing.
     - DO NOT use Repl.it or Heroku. They have extremely poor performance, and will probably fail at saving data in the database.
-- You have to have (very minimal) CLI knowledge
+- You have to have (very minimal) CLI and Linux knowledge
 
 ### Step 1: Installing dependencies
 - Download and install [MongoDB](https://mondodb.com)
 - Download and install [Python 3](https://python.org)
      - If you are running GNU/Linux, there's a very good chance Python is pre-installed, so don't worry about this
-> At this point in time, it's a good idea to open up the terminal!
+> At this point in time, it's a good idea to open up the terminal (and ssh into your VPS if needed)!
 - Clone/download the repo of the bot you want to self host (either [DropBot](https://github.com/modernbots/dropbot), [ModernBot](https://github.com/modernbots/modbot), or [ContentBot](https://github.com/modernbots/contentbot))
      - Many people think this is forking the repo, which isn't. DO NOT fork any of the repositories unless you plan on contributing code!
      - To clone the repository with the CLI, type in `git clone https://github.com/modernbots/BOTNAMEHERE` and hit <kbd>Enter</kbd>, replacing `BOTNAMEHERE` with the name of the bot you want to self-host
@@ -39,12 +39,13 @@
     - It should look like `echo "DISCORD=abcdefg" > .env`
 - Type `sed -i 's/"info", "tasks"]/]/g` and hit <kbd>Enter</kbd>
 - Type `python3 src/bot.py` and hit <kbd>Enter</kbd>
+> To have the bot still running when you close the session, install **and** run `tmux` before running this command!
 - Go back to the [Discord Developer Portal](https://discord.com/developers) and open the app you created
 - Open the sidebar and click on "Oauth2", then click on "URL Generator"
 - Under "SCOPES", check the "bot" **AND** the "applications.commands" boxes
 - Under "GENERAL PERMISSIONS", check the "Administrator" box
 - Copy the URL at the bottom and open it in a new tab
-- Select your server from the dropdown, click the "Continue" button, click the "Authorize" button, and fill out the hCaptcha if needed.
+- Select your server from the dropdown, click the "Continue" button, click the "Authorize" button, and fill out the hCaptcha if needed
 
 # **Congrats!** The bot is now in your server!
 

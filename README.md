@@ -57,6 +57,3 @@
 - Select your server from the dropdown, click the "Continue" button, click the "Authorize" button, and fill out the hCaptcha if needed
 
 # **Congrats!** The bot is now in your server!
-
-### Step 5: Combining functionality of other bots in
-> TODO

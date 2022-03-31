@@ -10,7 +10,7 @@
 ### Prerequisites
 - You have to have a VPS/Homelab/Raspberry Pi.
     - It is ***highly reccomended*** to run a GNU/Linux distrobution. I will not provide any support for non-Linux solutions.
-    - If you do not have a VPS, [Ploxhost](https://plox.host/vps-hosting) 🇺🇸, [Vultr](https://www.vultr.com/) 🌐, [Cockbox](https://cockbox.org/) 🇱🇹, and [Hetzner](https://www.hetzner.com) 🇩🇪 are good options.
+    - If you do not have a VPS, [Ploxhost](https://plox.host/vps-hosting) 🇺🇸, [HostKey](https://hostkey.com/) 🇳🇱, [Vultr](https://www.vultr.com/) 🌐, [Cockbox](https://cockbox.org/) 🇱🇹, and [Hetzner](https://www.hetzner.com) 🇩🇪 are good options.
     - I do not reccomend Raspberry Pis, but if you have one lying around, it's better than nothing.
     - DO NOT use Repl.it or Heroku. They have extremely poor performance, and will probably fail at saving data in the database.
 - You have to have (very minimal) CLI and Linux knowledge
